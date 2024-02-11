@@ -12,7 +12,6 @@ ol {
 a {
   text-decoration: none;
   color: inherit;
-  font-style: normal;
 }
 
 button {
@@ -58,15 +57,16 @@ img {
   color: #404bbf;
 }
 
-.address-item {
+.address-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-style: normal;
 }
 
-.address-item:hover,
-.address-item:focus {
+.address-link:hover,
+.address-link:focus {
   color: #404bbf;
 }
 
@@ -123,11 +123,15 @@ h1 {
 
 .title-team {
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+}
+
+.team-item {
+  background-color: #ffffff;
 }
 
 .team-member {
@@ -180,6 +184,10 @@ h1 {
 /*=========Footer styles=========*/
 .page-footer {
   background-color: #2e2f42;
+}
+
+.footer-color-studio {
+  color: #f4f4fd;
 }
 
 .footer-text {
