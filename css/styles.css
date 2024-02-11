@@ -38,11 +38,11 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
-.color-iris {
-  color: #4d5ae5;
+.color-studio {
+  color: #2e2f42;
 }
 
 .menu-link {
@@ -121,6 +121,15 @@ h1 {
 
 /*=========Team styles=========*/
 
+.title-team {
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
+}
+
 .team-member {
   background-color: #f4f4fd;
 }
@@ -171,16 +180,6 @@ h1 {
 /*=========Footer styles=========*/
 .page-footer {
   background-color: #2e2f42;
-}
-
-.logo-footer {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #f4f4fd;
 }
 
 .footer-text {
