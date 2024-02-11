@@ -12,6 +12,7 @@ ol {
 a {
   text-decoration: none;
   color: inherit;
+  font-style: normal;
 }
 
 button {
@@ -19,7 +20,6 @@ button {
 }
 
 img {
-  display: block;
   background-color: #fff;
 }
 
