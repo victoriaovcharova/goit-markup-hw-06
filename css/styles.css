@@ -7,6 +7,9 @@ body {
 ul,
 ol {
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 a {
@@ -20,6 +23,32 @@ button {
 
 img {
   background-color: #fff;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 120px 0;
 }
 
 /* =========Common styles========= */
@@ -28,6 +57,16 @@ img {
 
 .page-header {
   background-color: #ffffff;
+}
+
+.page-header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-nav {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -44,12 +83,21 @@ img {
   color: #2e2f42;
 }
 
+.menu {
+  display: flex;
+  margin-left: 76px;
+  gap: 40px;
+}
+
 .menu-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: block;
 }
 
 .menu-link:hover,
@@ -60,6 +108,14 @@ img {
 .address-page {
   font-style: normal;
 }
+
+.address-list {
+  display: flex;
+  gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 .address-link {
   font-weight: 400;
   font-size: 16px;
@@ -80,12 +136,25 @@ img {
   background-color: #2e2f42;
 }
 
+.hero .container {
+  padding-top: 188px;
+  padding-bottom: 188px;
+  padding-left: 330px;
+  padding-right: 330px;
+}
+
 h1 {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  width: 496px;
+  height: 120px;
+  margin-bottom: 48px;
+}
+
+.hero-title {
 }
 
 .hero-button {
@@ -95,6 +164,11 @@ h1 {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
+  min-width: 169px;
+  min-height: 56px;
+  border-radius: 4px;
+  padding: 16px 32px;
+  margin: 0 160px;
 }
 
 .hero-button:hover,
