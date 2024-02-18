@@ -25,7 +25,6 @@ img {
   background-color: #fff;
   display: block;
   max-width: 100%;
-  height: auto;
 }
 
 h1,
@@ -89,7 +88,6 @@ p {
 
 .menu {
   display: flex;
-  margin-left: 76px;
   gap: 40px;
 }
 
@@ -209,7 +207,6 @@ h1 {
 
 .benefits-item {
   width: calc((100%-72) / 4);
-  padding-top: 32px;
 }
 
 .benefits-category {
@@ -218,7 +215,7 @@ h1 {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px;
+  padding-bottom: 8px;
 }
 
 .benefits-description {
@@ -247,7 +244,7 @@ h1 {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 72px;
+  padding-bottom: 72px;
 }
 
 .team-item {
@@ -271,7 +268,7 @@ h1 {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 8px;
+  padding-bottom: 8px;
 }
 
 .member-position {
@@ -296,8 +293,7 @@ h1 {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-  padding-top: 124px;
-  margin-bottom: 72px;
+  padding-bottom: 72px;
 }
 
 .portfolio-list {
@@ -323,7 +319,7 @@ h1 {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px;
+  padding-bottom: 8px;
 }
 
 .portfolio-item-type {
@@ -344,6 +340,7 @@ h1 {
 .page-footer .logo {
   display: inline-block;
   margin-bottom: 16px;
+  margin-right: auto;
 }
 
 .footer-color-studio {
@@ -356,5 +353,6 @@ h1 {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   text-wrap: wrap;
+  width: 264px;
 }
 /*=========Footer styles=========*/
