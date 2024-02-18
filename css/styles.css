@@ -59,12 +59,12 @@ p {
 
 .page-header {
   background-color: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .page-header .container {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .page-nav {
@@ -138,9 +138,6 @@ p {
 
 .hero {
   background-color: #2e2f42;
-}
-
-.hero .container {
   padding-top: 188px;
   padding-bottom: 188px;
 }
@@ -187,14 +184,22 @@ h1 {
 
 /*=========Benefits styles=========*/
 
-.benefits .container {
+.benefits {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
-.benefits-title {
-  display: none;
-  margin-bottom: 8px;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .benefits-list {
@@ -213,19 +218,19 @@ h1 {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .benefits-description {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-top: 8px;
 }
 /*=========Benefits styles=========*/
 
 /*=========Team styles=========*/
 
-.team-member .container {
+.team-member {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -248,11 +253,11 @@ h1 {
 .team-item {
   background-color: #ffffff;
   width: calc((100%-72) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-item .container {
   padding: 32px 0px;
-  border-radius: 0px 0px 4px 4px;
 }
 
 .team-member {
@@ -279,6 +284,11 @@ h1 {
 
 /*=========Portfolio styles=========*/
 
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .portfolio-title {
   font-size: 36px;
   line-height: 1.11;
@@ -288,11 +298,6 @@ h1 {
   color: #2e2f42;
   padding-top: 124px;
   margin-bottom: 72px;
-}
-
-.portfolio-title .container {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .portfolio-list {
@@ -309,6 +314,7 @@ h1 {
 .portfolio-list .container {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-item {
@@ -331,9 +337,6 @@ h1 {
 /*=========Footer styles=========*/
 .page-footer {
   background-color: #2e2f42;
-}
-
-.page-footer .container {
   padding-top: 100px;
   padding-bottom: 100px;
 }
