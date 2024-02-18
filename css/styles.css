@@ -308,7 +308,7 @@ h1 {
 }
 
 .portfolio-item-list {
-  width: calc((100%-48) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-list .container {
