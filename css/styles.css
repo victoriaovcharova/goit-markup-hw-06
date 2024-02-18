@@ -64,6 +64,7 @@ p {
 .page-header .container {
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .page-nav {
@@ -79,6 +80,7 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .color-studio {
@@ -141,8 +143,6 @@ p {
 .hero .container {
   padding-top: 188px;
   padding-bottom: 188px;
-  padding-left: 330px;
-  padding-right: 330px;
 }
 
 h1 {
@@ -151,7 +151,7 @@ h1 {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  width: 496px;
+  max-width: 496px;
   height: 120px;
   margin-bottom: 48px;
 }
@@ -175,6 +175,7 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   display: block;
+  border: none;
 }
 
 .hero-button:hover,
@@ -188,11 +189,12 @@ h1 {
 
 .benefits .container {
   padding-top: 120px;
-  padding-bottom: 116px;
+  padding-bottom: 120px;
 }
 
 .benefits-title {
   display: none;
+  margin-bottom: 8px;
 }
 
 .benefits-list {
@@ -240,7 +242,7 @@ h1 {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .team-item {
@@ -249,7 +251,8 @@ h1 {
 }
 
 .team-item .container {
-  padding: 32px 16px;
+  padding: 32px 0px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-member {
@@ -263,6 +266,7 @@ h1 {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .member-position {
@@ -283,21 +287,28 @@ h1 {
   text-align: center;
   color: #2e2f42;
   padding-top: 124px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
+}
+
+.portfolio-title .container {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-item-list {
-  width: calc((100%-72) / 3);
+  width: calc((100%-48) / 3);
 }
 
 .portfolio-list .container {
   padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 
 .portfolio-item {
@@ -325,12 +336,11 @@ h1 {
 .page-footer .container {
   padding-top: 100px;
   padding-bottom: 100px;
-  padding-right: 864px;
-  min-width: 264px;
 }
 
-.footer-text {
-  margin-top: 16px;
+.page-footer .logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-color-studio {
