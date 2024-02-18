@@ -24,6 +24,8 @@ button {
 img {
   background-color: #fff;
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 h1,
@@ -155,6 +157,8 @@ h1 {
 }
 
 .hero-title {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-button {
@@ -168,7 +172,9 @@ h1 {
   height: 56px;
   border-radius: 4px;
   padding: 16px 32px;
-  margin: 0 160px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .hero-button:hover,
@@ -179,6 +185,25 @@ h1 {
 /*=========Hero styles=========*/
 
 /*=========Benefits styles=========*/
+
+.benefits .container {
+  padding-top: 120px;
+  padding-bottom: 116px;
+}
+
+.benefits-title {
+  display: none;
+}
+
+.benefits-list {
+  display: flex;
+  gap: 24px;
+}
+
+.benefits-item {
+  width: calc((100%-72) / 4);
+  padding-top: 32px;
+}
 
 .benefits-category {
   font-weight: 500;
@@ -192,10 +217,21 @@ h1 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-top: 8px;
 }
 /*=========Benefits styles=========*/
 
 /*=========Team styles=========*/
+
+.team-member .container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+}
 
 .title-team {
   font-size: 36px;
@@ -204,10 +240,16 @@ h1 {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  padding-bottom: 72px;
 }
 
 .team-item {
   background-color: #ffffff;
+  width: calc((100%-72) / 4);
+}
+
+.team-item .container {
+  padding: 32px 16px;
 }
 
 .team-member {
@@ -240,13 +282,31 @@ h1 {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  padding-top: 124px;
+  padding-bottom: 72px;
 }
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.portfolio-item-list {
+  width: calc((100%-72) / 3);
+}
+
+.portfolio-list .container {
+  padding: 32px 16px;
+}
+
 .portfolio-item {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .portfolio-item-type {
@@ -262,6 +322,17 @@ h1 {
   background-color: #2e2f42;
 }
 
+.page-footer .container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 864px;
+  min-width: 264px;
+}
+
+.footer-text {
+  margin-top: 16px;
+}
+
 .footer-color-studio {
   color: #f4f4fd;
 }
@@ -271,5 +342,6 @@ h1 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  text-wrap: wrap;
 }
 /*=========Footer styles=========*/
