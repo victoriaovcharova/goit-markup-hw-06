@@ -59,8 +59,6 @@ p {
 .page-header {
   background-color: #ffffff;
   border-bottom: 1px solid #e7e9fc;
-  position: sticky;
-  top: 0;
 }
 
 .page-header .container {
@@ -109,17 +107,6 @@ p {
   color: #404bbf;
 }
 
-.menu-item:hover::after {
-  content: "";
-  display: block;
-
-  border-radius: 2px;
-  width: 48px;
-  height: 4px;
-
-  background: #404bbf;
-}
-
 .address-page {
   font-style: normal;
 }
@@ -151,13 +138,6 @@ p {
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/hero-image.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 h1 {
@@ -297,13 +277,6 @@ h1 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-}
-
-.member-social-icon {
-  display: block;
-  fill: #4d5ae5;
-  justify-content: center;
-  align-items: center;
 }
 /*=========Team styles=========*/
 
