@@ -121,7 +121,6 @@ p {
 
 .menu-link.active::after {
   content: "";
-  display: block;
   position: absolute;
   border-radius: 2px;
   left: 0;
