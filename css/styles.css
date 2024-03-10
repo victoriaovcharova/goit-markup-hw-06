@@ -528,7 +528,6 @@ h1 {
 
 .footer-form {
   display: flex;
-  position: relative;
   gap: 24px;
 }
 
