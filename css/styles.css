@@ -554,6 +554,7 @@ h1 {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
+  color: #ffffff;
 }
 
 .footer-form-input::placeholder {
