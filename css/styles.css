@@ -742,7 +742,8 @@ h1 {
   color: rgba(46, 47, 66, 0.4);
 }
 
-.contact-msg:focus {
+.contact-msg:focus,
+.contact-msg:hover {
   border-color: #4d5ae5;
 }
 
