@@ -740,6 +740,7 @@ h1 {
   line-height: 1.67;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
+  border-color: #4d5ae5;
 }
 
 .contact-checkbox-wrapper {
