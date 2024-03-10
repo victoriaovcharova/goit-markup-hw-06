@@ -740,6 +740,9 @@ h1 {
   line-height: 1.67;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
+}
+
+.contact-msg:focus {
   border-color: #4d5ae5;
 }
 
