@@ -551,13 +551,17 @@ h1 {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: transparent;
   padding-left: 16px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #ffffff;
 }
 
 .footer-form-input::placeholder {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  color: #fff;
+  color: #ffffff;
   padding-left: 16px;
 }
 
@@ -669,7 +673,7 @@ h1 {
 }
 
 .contact-field-wrapper {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .contact-form-label {
@@ -714,11 +718,11 @@ h1 {
 }
 
 .contact-msg {
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 4px;
   width: 100%;
   height: 120px;
   background-color: transparent;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
   resize: none;
   padding: 8px 16px;
   border-color: #4d5ae5;
