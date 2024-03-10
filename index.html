@@ -460,20 +460,24 @@
 
                 </ul>
             </div>
-            <form class="footer-form" name="subscribe">
-                <label class="footer-form-label">Subscribe</label>
-                <div class="footer-form-container-input"><input class="footer-form-input" type="email" name="email-form"
-                        placeholder="E-mail" required>
-                    <div class="footer-form-button-wrapper">
-                        <button class="footer-btn" type="submit">Subscribe
+            <div class="footer-container-subscribe">
+                <p class="footer-text-subscribe">Subscribe</p>
+                <form class="footer-form" name="subscribe">
+                    <label for="user-email" class="footer-form-label"></label>
 
-                        </button>
+                    <input class="footer-form-input" type="email" name="email-form" id="user-email" placeholder="E-mail"
+                        required>
+
+                    <button class="footer-btn" type="submit">Subscribe
                         <svg class="btn-icon" width="24" height="24" aria-label="subscribe-icon">
                             <use href="./images/icons.svg#icon-Frame-3"></use>
                         </svg>
-                    </div>
+                    </button>
 
-                </div>
+
+
+
+            </div>
 
 
 
@@ -536,9 +540,9 @@
                 </div>
                 <div class="contact-checkbox-wrapper">
 
-                    <input type="checkbox" name="privacy-policy" id="privacy-policy" value="true"
+                    <input type="checkbox" name="privacy-policy" id="user-privacy" value="true"
                         class="contact-checkbox-privacy visually-hidden" required>
-                    <label for="privacy-policy" class="checkbox-label">
+                    <label for="user-privacy" class="checkbox-label">
                         <span class="contact-form-own-checkbox">
                             <svg class="contact-form-own-checkbox-icon" width="10" height="8"
                                 aria-label="checkbox-icon">

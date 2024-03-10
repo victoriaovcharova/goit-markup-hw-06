@@ -528,14 +528,11 @@ h1 {
 
 .footer-form {
   display: flex;
-  flex-direction: column;
   position: relative;
+  gap: 24px;
 }
 
-.footer-form-container-input {
-  display: inline-flex;
-}
-.footer-form-label {
+.footer-text-subscribe {
   display: flex;
   flex-direction: column;
   font-family: "Roboto", sans-serif;
@@ -554,12 +551,10 @@ h1 {
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: transparent;
-  margin-right: 24px;
+  padding-left: 16px;
 }
 
 .footer-form-input::placeholder {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
@@ -567,16 +562,14 @@ h1 {
   padding-left: 16px;
 }
 
-.footer-form-button-wrapper {
-  position: relative;
-}
-
 .footer-btn {
   border-radius: 4px;
-  text-align: left;
   padding-left: 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -584,13 +577,13 @@ h1 {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
 }
 
 .btn-icon {
-  position: absolute;
-  top: 50%;
-  right: 24px;
-  transform: translateY(-50%);
+  margin-left: 16px;
 }
 /*=========Footer styles=========*/
 
@@ -603,7 +596,7 @@ h1 {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(46, 47, 66, 0.4);
   opacity: 0;
   visibility: hidden;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -630,13 +623,17 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 72px 24px 24px 24px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   fill: #2e2f42;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
   line-height: 0;
   position: absolute;
@@ -652,6 +649,11 @@ h1 {
 .modal-close-btn:focus {
   fill: #fff;
   background-color: #404bbf;
+  border: none;
+}
+
+.modal-close-btn-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*=========Modal styles=========*/
@@ -668,7 +670,7 @@ h1 {
 }
 
 .contact-field-wrapper {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .contact-form-label {
@@ -692,6 +694,7 @@ h1 {
   background-color: transparent;
   padding-left: 38px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline: transparent;
 }
 
 .contact-input:focus {
@@ -718,13 +721,14 @@ h1 {
   height: 120px;
   background-color: transparent;
   resize: none;
-  padding-top: 8px;
-  padding-left: 16px;
-}
-
-.contact-msg {
+  padding: 8px 16px;
   border-color: #4d5ae5;
   outline: transparent;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-msg::placeholder {
@@ -750,7 +754,7 @@ h1 {
   fill: transparent;
   margin-right: 8px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -758,6 +762,7 @@ h1 {
   background-color: #404bbf;
   border-color: #404bbf;
   fill: #f4f4fd;
+  border: none;
 }
 
 .contact-checkbox-privacy:focus + .checkbox-label .contact-form-own-checkbox {
@@ -783,7 +788,7 @@ h1 {
   margin-right: auto;
   border-radius: 4px;
   padding: 16px 32px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   background: #4d5ae5;
   outline: transparent;
@@ -794,6 +799,8 @@ h1 {
   text-align: center;
   color: #fff;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*=========Form styles=========*/
