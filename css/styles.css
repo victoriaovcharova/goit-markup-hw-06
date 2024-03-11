@@ -563,8 +563,6 @@ h1 {
 }
 
 .footer-btn {
-  border-radius: 4px;
-  padding-left: 24px;
   min-width: 165px;
   height: 40px;
   display: flex;
@@ -580,6 +578,12 @@ h1 {
   cursor: pointer;
   border: none;
   border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-btn:hover,
+.footer-btn:focus {
+  background-color: #404bbf;
 }
 
 .btn-icon {
@@ -810,6 +814,11 @@ h1 {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-btn-form:hover,
+.contact-btn-form:focus {
+  background-color: #404bbf;
 }
 
 /*=========Form styles=========*/
