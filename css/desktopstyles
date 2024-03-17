@@ -552,6 +552,7 @@ h1 {
 /*=========Portfolio styles=========*/
 
 /*=========Footer styles=========*/
+
 .page-footer {
   background-color: #2e2f42;
   padding-top: 100px;
