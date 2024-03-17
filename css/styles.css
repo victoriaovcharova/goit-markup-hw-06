@@ -545,11 +545,6 @@ p {
   fill: #f4f4fd;
 }
 
-.member-social-icon:hover,
-.member-social-icon:focus {
-  background-color: #31d0aa;
-}
-
 /* tablet team */
 
 @media screen and (min-width: 768px) {
