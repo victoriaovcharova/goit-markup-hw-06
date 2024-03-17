@@ -1083,7 +1083,7 @@ p {
 }
 
 @media only screen and (min-width: 768px) {
-  .modal {
+  .modal-menu {
     display: none;
   }
 }
